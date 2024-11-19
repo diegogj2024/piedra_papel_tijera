@@ -1,0 +1,64 @@
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: rgb(243, 243, 200);
+}
+.botones{
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(67, 67, 255);
+    height: 100px;
+    cursor: pointer;
+}
+
+.botones1{
+    width: 100px;
+    border-radius: 20px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.849);
+}
+
+.player{
+    width: 100px;
+    position: relative;top: 110px;
+    left: 100px;
+
+}
+
+.tamañoletra{
+    font-size: 40px;
+}
+
+.maquina{
+    position:relative;left: 1120px;
+    bottom: 420px;
+}
+
+.tamañoopciones{
+    position: relative;bottom: 55px;
+    font-size: 50px;
+}
+
+#acomodar1{
+    position: relative;left: 1150px;
+    bottom: 300px;
+}
+
+#acomodar{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    position: relative;top: 110px;
+    left: 100px;
+    gap: 10px;
+}
+.botones:hover{
+    background-color: rgb(12, 208, 12);
+}
+
+#posicion{
+    position: relative;left: 650px;
+    bottom: 110px;
+    width: 100px;
+}
