@@ -30,7 +30,6 @@ botonlg[1].addEventListener("click",()=>{
     }
     else{
         lista.push([texto,texto2,texto3])
-        alert(lista)
     }
 
 })
